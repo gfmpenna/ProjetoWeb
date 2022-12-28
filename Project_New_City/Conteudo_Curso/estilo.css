@@ -1,4 +1,170 @@
-*{
+/*
+ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding: 5px 20px;
+  background: url(seta.png) no-repeat left center;
+}
+
+
+
+ul{
   margin: 0px;
   padding: 0px;
+  list-style-type: none;
+  
+}
+
+ul a {
+  border: 0.5px solid rgb(228, 176, 4);
+  width: 200px;
+  height: 40px;
+  display: block;
+
+  color: #000000;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;
+  background: #f7b600 url(menu.png) no-repeat left bottom;
+  
+}
+
+a:hover{
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+
+
+
+
+.ullista{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.li a{
+  border: 1px solid rgb(255, 145, 0);
+  width: 200px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  background:#f7b600 url(menu.png) no-repeat left bottom;
+  color: black;
+  text-indent: 40px;
+  line-height: 40px;
+}
+
+.li a:hover{
+  background:#f99200 url(meu.png) no-repeat right bottom;
+}
+*/
+
+/*Formatação Geral*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*Formatação Body*/
+body {
+  font-size: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #ffffff;
+}
+
+/*Formatação de Texto*/
+h1{
+  font-size: 2.5em;
+  color: #302c28;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+span{
+  font-size: 1.5em;
+  color: #000000;
+}
+/*Formatação Cabeçalho*/
+.area-cabecalho {
+  margin: 0px 0px 20px 0px;
+  background-color: #ffa32c;
+  text-align: center;
+  padding: 30px;
+}
+
+.area-menu a{
+  color: #383531;
+  text-decoration: none;
+  padding: 5px 20px;
+  margin: 0px 5px;
+  font-weight: 900;
+  background: #ff6702;
+  border-radius: 10px;
+}
+
+.area-menu a:hover{
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  font-weight: 900;
+  background: #ffa32c;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+/*Formatação Postagem/Menu*/
+.area-principal{
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.area-menu-page{
+  width: 250px;
+  float: left;
+}
+
+.area-infomage{
+  width: 900px;
+  float: left;
+}
+
+.menu-config ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  
+}
+
+.menu-config ul a{
+  border: 1px solid rgb(1, 238, 255);
+  display: block;
+  width: 180px;
+  height: 20px;
+  padding: 10px 10px;
+  background: url(menu01.png) no-repeat left bottom;
+  text-indent: 40px;
+  color: #302c28;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.menu-config ul a:hover{
+  
+  background: url(menu01.png) no-repeat right bottom;
+  text-indent: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu-config ul li{
+  margin: 0px 10px;
+  padding: 2px;
 }

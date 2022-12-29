@@ -73,9 +73,10 @@ a:hover{
 }
 /*Formatação Body*/
 body {
+  background: #fdfdfd;
   font-size: 1em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background: #ffffff;
+ 
 }
 
 
@@ -93,7 +94,7 @@ span{
 }
 /*Formatação Cabeçalho*/
 .area-cabecalho {
-  max-width: 100%;
+  width: 100%;
   margin: 0px 0px 20px 0px;
   background-color: #05b8ff;
   text-align: center;
@@ -121,8 +122,26 @@ span{
   border: 1px solid #000000;
 }
 
+
+.noticia-edit a{
+  text-decoration: none;
+  background-color: #05b8ff;
+  padding: 3px;
+  border-radius: 5px;  
+}
+
+.noticia-edit h3{
+  text-align: center;
+  font-weight: bold;
+  background: #05b8ff;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #000000; 
+}
 /*Formatação Postagem/Menu*/
 .area-principal{
+ 
   width: 1300px;
   height: auto;
   margin: 0 auto;
@@ -130,13 +149,15 @@ span{
 }
 
 .area-menu-page{
- 
+
+  height: 250px;
+  padding: 5px;
   
 }
 /*Formatação Postagem/Infopage*/
 .area-infomage{
-  border: 1px solid red;
-  margin: 0px 30px;
+
+  margin: 0px 10px;
   
 }
 
@@ -154,11 +175,11 @@ span{
   padding: 10px;
   border-radius: 10px;
   color: #000000; 
+  
 }
 
 .area-noticias{
-  border: 1px solid red;
-  padding: 0px 50px;
+  padding: 0px 10px;
 }
 
 .menu-config ul{
@@ -193,4 +214,19 @@ span{
 .menu-config ul li{
   margin: 0px 10px;
   padding: 2px;
+}
+
+.area-infomage-cont2 img{
+  width: 800px;
+  height: 400px;
+  padding: 10px 0px;
+}
+
+.area-infomage-cont2 h3{
+  font-size: 1.5em;
+  padding: 10px 0px 0px 0px;
+}
+.area-infomage-cont2 p{
+  font-size: 0.7em;
+  text-decoration: underline;
 }

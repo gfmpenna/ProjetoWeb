@@ -94,7 +94,7 @@ span{
 }
 /*Formatação Cabeçalho*/
 .area-cabecalho {
-  width: 100%;
+  max-width: 100%;
   margin: 0px 0px 20px 0px;
   background-color: #05b8ff;
   text-align: center;
@@ -121,12 +121,39 @@ span{
   border-radius: 10px;
   border: 1px solid #000000;
 }
-
-
-.noticia-edit a{
+.link{
+  font-size: .8em;
+  color: #000000;
   text-decoration: none;
   background-color: #05b8ff;
-  padding: 3px;
+  padding: 3px 15px;
+  border-radius: 5px; 
+}
+.link:hover{
+  font-size: .8em;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #1e1afa;
+  padding: 3px 15px;
+  border-radius: 5px;  
+}
+.noticia-edit a{
+  font-size: .8em;
+  color: #000000;
+  text-decoration: none;
+  background-color: #05b8ff;
+  padding: 3px 15px;
+  margin: 0px 15px;
+  border-radius: 5px;  
+}
+
+.noticia-edit a:hover{
+  font-size: .8em;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #1e1afa;
+  padding: 3px 15px;
+  margin: 0px 15px;
   border-radius: 5px;  
 }
 
@@ -138,6 +165,11 @@ span{
   margin: 20px;
   border-radius: 10px;
   color: #000000; 
+}
+
+.noticia-edit p{
+  font-size: 1em;
+  margin: 15px;
 }
 /*Formatação Postagem/Menu*/
 .area-principal{
@@ -229,4 +261,16 @@ span{
 .area-infomage-cont2 p{
   font-size: 0.7em;
   text-decoration: underline;
+}
+
+.rodape{
+  max-width: auto;
+  background: #05b8ff;
+  height: 80px;
+  margin-bottom: 0px;
+}
+
+.rodape h4{
+text-align: center;
+padding: 30px;
 }

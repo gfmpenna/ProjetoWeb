@@ -78,6 +78,7 @@ body {
   background: #ffffff;
 }
 
+
 /*Formatação de Texto*/
 h1{
   font-size: 2.5em;
@@ -87,23 +88,25 @@ h1{
 }
 span{
   font-size: 1.5em;
-  color: #000000;
+  color: #ffffff;
+  
 }
 /*Formatação Cabeçalho*/
 .area-cabecalho {
+  max-width: 100%;
   margin: 0px 0px 20px 0px;
-  background-color: #ffa32c;
+  background-color: #05b8ff;
   text-align: center;
   padding: 30px;
 }
 
 .area-menu a{
-  color: #383531;
+  color: #ffffff;
   text-decoration: none;
   padding: 5px 20px;
   margin: 0px 5px;
   font-weight: 900;
-  background: #ff6702;
+  background: #0019fc;
   border-radius: 10px;
 }
 
@@ -113,7 +116,7 @@ span{
   padding: 5px 20px;
   margin: 0px 10px;
   font-weight: 900;
-  background: #ffa32c;
+  background: #fafafa;
   border-radius: 10px;
   border: 1px solid #000000;
 }
@@ -123,16 +126,39 @@ span{
   width: 1300px;
   height: auto;
   margin: 0 auto;
+  display: flex;
 }
 
 .area-menu-page{
-  width: 250px;
-  float: left;
+ 
+  
+}
+/*Formatação Postagem/Infopage*/
+.area-infomage{
+  border: 1px solid red;
+  margin: 0px 30px;
+  
 }
 
-.area-infomage{
-  width: 900px;
-  float: left;
+
+.area-infomage-cont{
+  margin: 20px;
+  margin-bottom: 30px;
+  /*background: #a7a4a4;*/
+}
+
+.area-infomage-cont h2{
+  text-align: center;
+  font-weight: bold;
+  background: #05b8ff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000000; 
+}
+
+.area-noticias{
+  border: 1px solid red;
+  padding: 0px 50px;
 }
 
 .menu-config ul{

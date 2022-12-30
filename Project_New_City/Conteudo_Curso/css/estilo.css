@@ -227,7 +227,7 @@ span{
   width: 180px;
   height: 20px;
   padding: 10px 10px;
-  background: url(menu01.png) no-repeat left bottom;
+  background: url(../img/menu01.png) no-repeat left bottom;
   text-indent: 40px;
   color: #302c28;
   font-weight: 600;
@@ -237,7 +237,7 @@ span{
 
 .menu-config ul a:hover{
   
-  background: url(menu01.png) no-repeat right bottom;
+  background: url(../img/menu01.png) no-repeat right bottom;
   text-indent: 40px;
   color: #ffffff;
   font-weight: 600;

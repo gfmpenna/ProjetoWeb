@@ -16,9 +16,22 @@ ul li{
 }
 
 li a{
+  color: aliceblue;
   display: block;
   padding: 0 2em;
   line-height: 3em;
   text-decoration: none;
   background: url(../img/aba-esquerda.png) no-repeat top left;
+}
+
+ul a:hover{
+  color: #894a1f;
+}
+
+
+ul #atual{
+  background: url(../img/aba-direita-atual.png) no-repeat top right;
+}
+ul #atual a{
+  background: url(../img/aba-esquerda-atual.png) no-repeat top left;
 }

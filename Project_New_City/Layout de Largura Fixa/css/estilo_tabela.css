@@ -1,0 +1,66 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f2f2;
+}
+
+
+table{
+  width: 600px;
+  border-collapse: separate;
+}
+
+th, td{
+  padding: 7px;
+}
+
+th{
+  text-transform: uppercase;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  font-size: 90%;
+  letter-spacing: 0.1em;
+}
+
+tr.alternando{
+  background: rgb(216, 215, 215);
+}
+
+tr:hover{
+  background: rgb(150, 234, 240);
+}
+.value{
+  text-align: right;
+}
+/* FORMULARIO ABAIXO*/
+
+
+
+fieldset{
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+}
+legend{
+  font-weight: 600;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+
+input[typy="text"]{
+  width: 20%;
+}
+
+textarea{
+  width: 30%;
+  height: 30%;
+  margin: 1em 0;
+}
+
+.radio input{
+  width: 2%;
+}

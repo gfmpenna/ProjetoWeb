@@ -7,10 +7,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilo_tabela.css">
 
-  <title>Tabela Formatada</title>
+  <title>Tabela estilizada</title>
 </head>
 
 <body>
+  <div id="Tabela">
+    <h2>Estilizando Tabelas</h2>
+    <table>
+      <tr>
+        <th>Código</th>
+        <th>Produto</th>
+        <th class="value">Preço</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Notebook</td>
+        <td class="value">R$ 2.500</td>
+      </tr>
+      <tr class="alternando">
+        <td>002</td>
+        <td>Tablet</td>
+        <td class="value">R$ 1.500</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Iphone X</td>
+        <td class="value">R$ 5.500</td>
+      </tr>
+      <tr class="alternando">
+        <td>004</td>
+        <td>Iphone Pro</td>
+        <td class="value">R$ 7.500</td>
+      </tr>
+    </table>
+  </div>
+
+  <br><br><br>
+  <h2>Estilizando um Formulário</h2>
+
+  <form action="">
+
+    <fieldset>
+      <legend>Detalhes de contato</legend>
+
+      <div>
+        <label for="Nome">Nome :</label>
+        <input type="text" name="Nome" id="Nome">
+      </div>
+      <div>
+        <label for="Email">Email :</label>
+        <input type="email" name="Email" id="Email">
+      </div>
+      <div>
+        <label for="URL">URL :</label>
+        <input type="text" name="URL" id="URL">
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Comentários</legend>
+      <div>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Lembra de mim</legend>
+
+      <div>
+        <label class="radio" for="Sim">
+          <input type="radio" name="Lembrar" id="Sim">Sim
+        </label>
+      </div>
+
+      <div>
+        <label class="radio" for="Nao">
+          <input type="radio" name="Lembrar" id="Nao">Não
+        </label>
+      </div>
+
+    </fieldset>
+  </form>
+
 
 </body>
 

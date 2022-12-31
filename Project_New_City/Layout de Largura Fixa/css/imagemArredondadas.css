@@ -1,0 +1,45 @@
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*background: rgb(156, 62, 223,0.4) url(../img/fundo4.jpg) no-repeat center center ;*/
+}
+/*
+
+#caixa{
+  width: 400px;
+  background: #dedede url(../img/topo.png) no-repeat left top;
+}
+
+#caixa h2{
+  padding: 10px 0px 10px 20px;
+  margin-bottom: 10px;
+}
+
+#caixa p{
+  text-align:justify;
+  padding: 10px 20px 20px 20px;
+  background: url(../img/baixo.png)no-repeat bottom left;
+}
+*/
+
+
+#caixa{
+  width: 400px;
+  background: #dedede url(../img/fundo-arredondamento.png) repeat-y top;
+}
+
+#caixa h2{
+  padding: 20px 20px 0px 20px;
+  background: url(../img/topo2.png) no-repeat left top;
+}
+
+#caixa p{
+  padding: 0px 20px 10px 20px;
+  margin-bottom: 0px;
+}
+
+.ultimo{
+  width: 400px;
+  height: 24px;
+  background: url(../img/baixo2.png) no-repeat left bottom;
+}

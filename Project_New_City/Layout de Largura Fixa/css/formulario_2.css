@@ -1,7 +1,7 @@
 
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: rgb(156, 62, 223,0.4) url(../img/fundo.jpg) no-repeat top center ;
+  background: rgb(156, 62, 223,0.4) url(../img/fundo4.jpg) no-repeat top center ;
 }
 
 #container{
@@ -12,7 +12,7 @@ body{
   -moz-border-radius: 10px;
   border-radius: 10px;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 250px;
   text-align: center;
 }
 #container img{
@@ -53,7 +53,7 @@ input{
 
 .submit:hover{
   color: #fff;
-  background: rgba(200,150,235, 1.0);
+  background: rgb(136, 54, 194, 0.8);
   border: 2px solid #Db7d00;
   padding: 5px 20px;
   height: 45px;

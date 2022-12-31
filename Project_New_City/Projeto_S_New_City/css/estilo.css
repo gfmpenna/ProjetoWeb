@@ -68,3 +68,49 @@ ul{
   color: #fff;
   background: #de003e;
  }
+
+ /*CONTEUDO DO SITE*/
+
+ #conteudo{
+  background: #b10333;
+  margin-top: 40px;
+ }
+
+ #primario{
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+  background: blue;
+ }
+
+ #secundario{
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+  background: green;
+ }
+
+ #lateral{
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+  background: rgb(105, 90, 90);
+ }
+
+
+
+
+
+
+
+
+#rodape{
+  clear: both;
+  background:rgb(41,76,113);
+}
+.rodape{
+  color: #fff;
+  font-weight: 300;
+  padding: 20px 0px;
+  text-align: center;
+}

@@ -10,10 +10,11 @@ body {
 
 #container {
   margin: 0 auto;
-  background: #ede9cc;
   min-width: 740px;
   max-width: 1180px;
+  background: #ede9cc url(../img/bg-container.png) repeat-y center;
 }
+
 
 #topo {
   position: relative;
@@ -47,7 +48,7 @@ body {
   position: absolute;
   width: 450px;
   height: 250px;
-  background: url(../img/topo-imagem-lateral.png)no-repeat;
+  background: url(../img/topo-imagem-lateral.png)top center repeat-y;
   top: 0;
   right: 0;
   z-index: 2;
@@ -66,7 +67,7 @@ body {
   border-bottom: 1px solid #b5ab56;
   font-size: 0.7em;
   color: #8b8448;
-  
+
 }
 
 #menu-locais .locais {
@@ -83,7 +84,7 @@ a.reservar {
   text-decoration: none;
 }
 
-a.reservar:hover{
+a.reservar:hover {
   text-transform: uppercase;
   background: #fae683;
   color: #252525;
@@ -94,24 +95,24 @@ a.reservar:hover{
 
 /*MENU LISTA*/
 
-#menu-lista{
+#menu-lista {
   margin-top: 20px;
 }
 
-.menu-lista-ul li{
+.menu-lista-ul li {
 
   margin-bottom: 12px;
   list-style-type: none;
 }
 
-.menu-lista-ul a{
+.menu-lista-ul a {
   font-size: 0.9em;
   padding: 5px;
   text-decoration: none;
   color: #696430;
 }
 
-.menu-lista-ul a:hover{
+.menu-lista-ul a:hover {
   padding: 5px;
   background: #fae683;
   text-decoration: none;
@@ -123,4 +124,80 @@ a.reservar:hover{
   float: right;
   margin-top: -158px;
   margin-left: 120px;
+}
+
+/*Conteudo pagina*/
+#conteudo {
+  clear: both;
+}
+
+#cont-primeiro {
+  width: 50%;
+  float: left;
+}
+
+#cont-segundo {
+  width: 50%;
+  float: right;
+}
+
+.conteudo-area {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.conteudo-area h2 {
+  font-size: 1.3em;
+  margin: 10px 0;
+  color: #696430;
+}
+
+.conteudo-area p {
+  color: #252525;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+
+#rodape {
+  clear: both;
+  background: #252525;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #b5ab56;
+}
+
+#lista-news li{
+  list-style-type: none;
+  padding: 2px;
+  height: 120px;
+  border-bottom: 1px solid #c0c04e;
+}
+
+#lista-news li a img{
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 170px;
+  float: left;
+}
+
+#lista-news li a{
+  text-decoration: none;
+}
+
+#lista-news li a h3{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #3e7ab9;
+  font-size: 1.2em;
+}
+
+#lista-news li a p {
+  color: #000;
+  font-size: 0.9em;
+}
+
+#lista-news li:hover {
+  background: #f5eab6;
 }

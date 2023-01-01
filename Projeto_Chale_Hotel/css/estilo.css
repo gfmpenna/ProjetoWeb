@@ -182,8 +182,9 @@ a.reservar:hover {
 #lista-news li a h3{
   margin-top: 10px;
   margin-bottom: 5px;
-  color: #3e7ab9;
+  color: #7b7c25;
   font-size: 1.2em;
+  background: url(../img/ornamento.png) no-repeat center right;
 }
 
 #lista-news li a p {

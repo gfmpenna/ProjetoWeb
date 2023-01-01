@@ -1,0 +1,64 @@
+/*
+.mundo{
+ 
+}
+
+.mundo img{
+  width: 40%;
+  float: left;
+}
+
+.mundo h5{
+  color: #294c71;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-indent: 10px;
+}
+
+.mundo p{
+  padding: 0px 0px 5px 0px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+}
+
+.sublinhado{
+  border-bottom:1px solid #dad9d9;
+  margin: 5px 0px;
+}
+
+!---CODIGO DA LISTA MUNDO---!
+
+#lista-noticias  li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 65px;
+}
+
+#lista-noticias  li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias  li a {
+	text-decoration: none;
+}
+
+#lista-noticias  li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+*/

@@ -81,5 +81,46 @@ a.reservar {
   padding: 5px 10px;
   float: right;
   text-decoration: none;
-  
+}
+
+a.reservar:hover{
+  text-transform: uppercase;
+  background: #fae683;
+  color: #252525;
+  padding: 5px 10px;
+  float: right;
+  text-decoration: none;
+}
+
+/*MENU LISTA*/
+
+#menu-lista{
+  margin-top: 20px;
+}
+
+.menu-lista-ul li{
+
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+.menu-lista-ul a{
+  font-size: 0.9em;
+  padding: 5px;
+  text-decoration: none;
+  color: #696430;
+}
+
+.menu-lista-ul a:hover{
+  padding: 5px;
+  background: #fae683;
+  text-decoration: none;
+  color: #252525;
+}
+
+.depoimento {
+  position: absolute;
+  float: right;
+  margin-top: -158px;
+  margin-left: 120px;
 }

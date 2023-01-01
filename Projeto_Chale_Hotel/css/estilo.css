@@ -1,13 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: #fff url(../img/bg.png);
 }
 
-#container{
-  border: 1px solid red;
+#container {
+  background: #ede9cc;
+}
+
+#topo{
+  position: relative;
+  background: #dbcd87;
+  height: 15.4em;
+  max-height: 250px;
+}
+
+#area-logo{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background: url(../img/topo-imagem-principal2.png) no-repeat;
+  top: 0;
+  left: 0;
+}
+
+#area-menu{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  background: url(../img/topo-imagem-lateral.png)no-repeat;
+  top: 0;
+  right: 0;
 }

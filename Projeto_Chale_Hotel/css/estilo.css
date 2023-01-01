@@ -134,11 +134,13 @@ a.reservar:hover {
 #cont-primeiro {
   width: 50%;
   float: left;
+  background: url(../img/bg-area-principal.png) top left repeat-x;
 }
 
 #cont-segundo {
   width: 50%;
   float: right;
+  background: url(../img/bg-area-lateral.png) top left repeat-x;
 }
 
 .conteudo-area {
@@ -158,15 +160,6 @@ a.reservar:hover {
   text-align: left;
 }
 
-
-#rodape {
-  clear: both;
-  background: #252525;
-  margin-top: 10px;
-  padding: 10px;
-  text-align: center;
-  color: #b5ab56;
-}
 
 #lista-news li{
   list-style-type: none;
@@ -200,4 +193,13 @@ a.reservar:hover {
 
 #lista-news li:hover {
   background: #f5eab6;
+}
+
+#rodape {
+  clear: both;
+  background: #252525 url(../img/bg-rodape.png)top repeat-x;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #b5ab56;
 }
